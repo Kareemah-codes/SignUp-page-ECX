@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="ut f-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Sign Up </title>  
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+		<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/signUpStyle.css">
+	</head>
+
+
+	<body>
+        <div class="backimg">
+            
+          
+        </div>
+       
+        <div class="wrapper">
+            <div class="title">
+                <h2>Sign up !</h2>
+            </div>
+            
+            <div class="form">
+                <!--NOte to self : Form starts here.The input tag is used to create the spaces to typein a value
+                .The label tag is used to write in front of the space the input tag has created .
+            Unlike a placeholder that puts the value directly into the space the input tag provides.
+             Also a "type" was used in the input tag to signify the kind of value are accepted. -->
+                <form>
+                    <div class="input-field">
+                        <label>First Name</label>
+                        <input type="text" class="input">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Last Name</label>
+                        <input type="text" class="input">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Date of Birth</label>
+                        <input type="date" class="input">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Email Address </label>
+                        <input type="email" class="input">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Password</label>
+                        <input type="password" class="input">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Confirm Password</label>
+                        <input type="password" class="input">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Gender</label>
+                        <div class="custom-select">
+                            <select>  
+                                <!-- THe option tag is used to create the drop down list.-->
+                                <option value="">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Others</option>
+                                <option value="none">Prefer not to say</option>
+
+                            </select>
+                        </div>
+                         
+                    </div>
+
+                    <div class="input-field">
+                        <label>Phone Number</label>
+                        <input type="number" class="input">
+                    </div>
+                    
+                    <!-- An input tag wasn't used but instaed a text area tag.
+                    This should be more suitable  to write reccomendations,Descriptions
+                ,other info and there I say it, addresses-->
+                    <div class="input-field">
+                        <label>Address </label>
+                        <textarea class="textarea"></textarea>
+                    </div>
+
+                    <div class="input-field">
+                        <label class="check">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                            <p>Agreed to terms and conditions</p>
+                    </div>
+                    
+                    <!--Sign Up button-->
+                  <!-- I only created the "sign up" div class so I can easily center the sign up 
+                  button .I can't use the "input-field" class because that is a class being used 
+                  for other divs.It would also be unwise to change the "input-field" class to another name
+                  because I would have to start giving it all the properties over again.-->
+                <div class="signUp">
+                    <div class="input-field">
+                        <input type="button" class="btn" value="Sign Up">
+                    </div>
+
+                </div>
+                   
+
+
+
+                </form>
+            </div>
+            
+             
+        
+        </div>
+	
+	</body>
+</html>
